@@ -40,3 +40,10 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+#Angular CLI build
+.angular-cli.json
+.editorconfig
+karma.conf.js
+protractor.conf.js
+tslint.json
