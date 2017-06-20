@@ -47,3 +47,6 @@ Thumbs.db
 karma.conf.js
 protractor.conf.js
 tslint.json
+
+#Linters
+.jshintrc
