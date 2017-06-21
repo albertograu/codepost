@@ -3,7 +3,7 @@
     <div class="post-container">
       <div class="row">
         <div class="columns small-12 large-10">
-          <a routerLink="/" class="post-title">
+          <a routerLink="/details/{{ post._id }}" class="post-title">
             {{ post.title }}
           </a>
         </div>
@@ -27,7 +27,7 @@
       <p>
         {{ post.description }}
       </p>
-      <a routerLink="/" class="cta-btn btn2">
+      <a routerLink="/details/{{ post._id }}" class="cta-btn btn2">
         More Info
       </a>
     </div>

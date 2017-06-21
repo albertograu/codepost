@@ -22,7 +22,18 @@ router.get('/posts', function(req, res) {
           console.log('Error getting Posts');
         } else {
           res.json(posts);
-          console.log(posts);
+        }
+      });
+});
+
+router.get('/details/:id', function(req, res) {
+  console.log('Requesting post');
+  post.findById(req.params.id)
+      .exec(function(err, post) {
+        if (err) {
+          console.log('Error getting the post');
+        } else {
+          res.json(post);
         }
       });
 });
