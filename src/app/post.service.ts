@@ -6,7 +6,7 @@ import 'rxjs/add/operator/map';
 @Injectable()
 export class PostService {
 
-  result: any;
+  result:any;
 
   constructor(private _http: Http) { }
 
