@@ -25,7 +25,7 @@
       </div>
 
       <p>
-        {{ post.description }}
+        {{ post.description | length: 130 }}
       </p>
       <a routerLink="/details/{{ post._id }}" class="cta-btn btn2">
         More Info
