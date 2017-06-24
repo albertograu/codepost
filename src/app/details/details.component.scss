@@ -4,12 +4,13 @@ p {
 
 a#back {
   background: url('/assets/images/back.svg') no-repeat;
-  width: 69px;
+  background-size: cover;
+  width: 79px;
   display: block;
   color: #2A3136;
   font-weight: bold;
   text-transform: uppercase;
-  text-indent: 16px;
+  text-indent: 20px;
   padding-top: 1px;
-  margin-bottom: 45px;
+  margin-bottom: 50px;
 }

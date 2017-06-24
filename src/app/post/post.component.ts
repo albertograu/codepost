@@ -3,12 +3,14 @@ import { PostService } from '../post.service';
 import { Post } from '../post';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
-// import { routerTransition } from '../animations';
+import { routerTransition } from '../animations';
 
 @Component({
   selector: 'app-post',
   templateUrl: './post.component.html',
   styleUrls: ['./post.component.scss'],
+  animations: [routerTransition],
+  host: {'[@routerTransition]': ''}
 })
 export class PostComponent implements OnInit {
 
