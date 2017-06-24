@@ -19,7 +19,7 @@ import { trigger,
 
     transition(':leave', [
       style({transform: 'translateY(0%)'}),
-      animate('0.6s ease-in-out', style({transform: 'translateY(-10%)', opacity: 0}))
+      animate('0.4s ease-in-out', style({transform: 'translateY(-10%)', opacity: 0}))
     ])
 
   ]);
