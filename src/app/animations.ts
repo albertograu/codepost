@@ -13,13 +13,13 @@ import { trigger,
     state('*', style({position:'absolute', width:'100%', height:'100%',opacity: 1})),
 
     transition(':enter', [
-      style({transform: 'translateY(20%)', opacity: 0}),
+      style({transform: 'translateY(-10%)', opacity: 0}),
       animate('0.8s ease-in-out', style({transform: 'translateY(0%)', opacity: 1}))
     ]),
 
     transition(':leave', [
       style({transform: 'translateY(0%)'}),
-      animate('0.8s ease-in-out', style({transform: 'translateY(-20%)', opacity: 0}))
+      animate('0.6s ease-in-out', style({transform: 'translateY(-10%)', opacity: 0}))
     ])
 
   ]);
